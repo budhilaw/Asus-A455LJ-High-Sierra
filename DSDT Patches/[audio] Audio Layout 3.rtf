@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf100
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #Maintained by: RehabMan for: Laptop Patches\
+#audio_HDEF-layout3.txt\
+\
+# Note: Change your layout ID if you need something different\
+# Note: "hda-gfx" is not needed with Haswell and should probably be removed\
+\
+#   Inject Audio info\
+into method label _DSM parent_label HDEF remove_entry;\
+into device label HDEF insert\
+begin\
+Method (_DSM, 4, NotSerialized)\\n\
+\{\\n\
+    If (LEqual (Arg2, Zero)) \{ Return (Buffer() \{ 0x03 \} ) \}\\n\
+    Return (Package()\\n\
+    \{\\n\
+        "layout-id", Buffer() \{ 3, 0x00, 0x00, 0x00 \},\\n\
+        "hda-gfx", Buffer() \{ "onboard-1" \},\\n\
+        "PinConfigurations", Buffer() \{ \},\\n\
+        //"MaximumBootBeepVolume", 77,\\n\
+    \})\\n\
+\}\\n\
+end;\
+\
+into method label _DSM parent_label HDAS remove_entry;\
+into device label HDAS insert\
+begin\
+Method (_DSM, 4, NotSerialized)\\n\
+\{\\n\
+    If (LEqual (Arg2, Zero)) \{ Return (Buffer() \{ 0x03 \} ) \}\\n\
+    Return (Package()\\n\
+    \{\\n\
+        "layout-id", Buffer() \{ 3, 0x00, 0x00, 0x00 \},\\n\
+        "hda-gfx", Buffer() \{ "onboard-1" \},\\n\
+        "PinConfigurations", Buffer() \{ \},\\n\
+        //"MaximumBootBeepVolume", 77,\\n\
+    \})\\n\
+\}\\n\
+end;\
+}
