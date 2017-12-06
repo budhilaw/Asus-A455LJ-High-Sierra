@@ -1,0 +1,180 @@
+7:836  1:148  Found BIOS RSDP at FD950
+7:836  0:000  Printing ACPI tables from RSDP FD950 ...
+7:836  0:000   FD950: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:836  0:000    (Xsdt: C53900B0, Rsdt: C5390028)
+7:836  0:000    C53900B0: 'XSDT', 'Notebook', Rev: 1, Len: 220
+7:836  0:000    C5390028: 'RSDT', 'Notebook', Rev: 1, Len: 128
+7:836  0:000    Tables in Xsdt: 23
+7:836  0:000    0. C53A7DA0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:836  0:000        (Dsdt: C5390228, Facs: C641EF80, XDsdt: C5390228, XFacs: 0)
+7:836  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:838  0:002        C641EF80: 'FACS', Ver: 2, Len: 64
+7:838  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:838  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:838  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:838  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:838  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:838  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:838  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:838  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:838  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:838  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:838  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:838  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:838  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:838  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:838  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:838  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:838  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:838  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:838  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:838  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:838  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:838  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
+7:838  0:000    Tables in Rsdt: 23
+7:838  0:000    0. C53901A0: 'FACP', 'Notebook', Rev: 2, Len: 132
+7:838  0:000        (Dsdt: C5390228, Facs: C641EF40)
+7:838  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:841  0:002        C641EF40: 'FACS', Ver: 0, Len: 64
+7:841  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:841  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:841  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:841  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:841  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:841  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:841  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:841  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:841  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:841  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:841  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:841  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:841  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:841  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:841  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:841  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:841  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:841  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:841  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:841  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:841  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:841  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
+7:841  0:000  Found UEFI Acpi 2.0 RSDP at C5390000
+7:841  0:000  Saving ACPI tables from RSDP C5390000 to EFI\CLOVER\ACPI\origin ...
+7:841  0:000   C5390000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:841  0:000    (Xsdt: C53900B0, Rsdt: C5390028)
+7:841  0:000    C53900B0: 'XSDT', 'Notebook', Rev: 1, Len: 220
+7:841  0:000    C5390028: 'RSDT', 'Notebook', Rev: 1, Len: 128
+7:841  0:000    Tables in Xsdt: 23
+7:841  0:000    0. C53A7DA0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:841  0:000        (Dsdt: C5390228, Facs: C641EF80, XDsdt: C5390228, XFacs: 0)
+7:841  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:843  0:002        C641EF80: 'FACS', Ver: 2, Len: 64
+7:843  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:843  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:843  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:843  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:843  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:843  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:843  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:843  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:843  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:843  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:843  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:843  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:843  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:843  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:843  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:843  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:843  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:843  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:843  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:843  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:843  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:843  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
+7:843  0:000    Tables in Rsdt: 23
+7:843  0:000    0. C53901A0: 'FACP', 'Notebook', Rev: 2, Len: 132
+7:843  0:000        (Dsdt: C5390228, Facs: C641EF40)
+7:843  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:846  0:002        C641EF40: 'FACS', Ver: 0, Len: 64
+7:846  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:846  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:846  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:846  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:846  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:846  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:846  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:846  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:846  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:846  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:846  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:846  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:846  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:846  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:846  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:846  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:846  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:846  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:846  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:846  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:846  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:846  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
+7:846  0:000  Found UEFI Acpi 1.0 RSDP at C5390000
+7:846  0:000  Printing ACPI tables from RSDP C5390000 ...
+7:846  0:000   C5390000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:846  0:000    (Xsdt: C53900B0, Rsdt: C5390028)
+7:846  0:000    C53900B0: 'XSDT', 'Notebook', Rev: 1, Len: 220
+7:846  0:000    C5390028: 'RSDT', 'Notebook', Rev: 1, Len: 128
+7:846  0:000    Tables in Xsdt: 23
+7:846  0:000    0. C53A7DA0: 'FACP', 'Notebook', Rev: 5, Len: 268
+7:846  0:000        (Dsdt: C5390228, Facs: C641EF80, XDsdt: C5390228, XFacs: 0)
+7:846  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:848  0:002        C641EF80: 'FACS', Ver: 2, Len: 64
+7:848  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:848  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:848  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:848  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:848  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:848  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:848  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:848  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:848  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:848  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:848  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:848  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:848  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:848  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:848  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:848  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:848  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:848  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:848  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:848  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:848  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:848  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
+7:848  0:000    Tables in Rsdt: 23
+7:848  0:000    0. C53901A0: 'FACP', 'Notebook', Rev: 2, Len: 132
+7:848  0:000        (Dsdt: C5390228, Facs: C641EF40)
+7:848  0:000        C5390228: 'DSDT', 'Notebook', Rev: 2, Len: 97137
+7:850  0:002        C641EF40: 'FACS', Ver: 0, Len: 64
+7:850  0:000    1. C53A7EB0: 'APIC', 'Notebook', Rev: 3, Len: 132
+7:850  0:000    2. C53A7F38: 'FPDT', 'Notebook', Rev: 1, Len: 68
+7:850  0:000    3. C53A7F80: 'FIDT', 'Notebook', Rev: 1, Len: 156
+7:850  0:000    4. C53A8020: 'ECDT', 'Notebook', Rev: 1, Len: 193
+7:850  0:000    5. C53A80E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+7:850  0:000    6. C53A8128: 'HPET', 'Notebook', Rev: 1, Len: 56
+7:850  0:000    7. C53A8160: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:850  0:000    8. C53A8478: 'UEFI', '', Rev: 1, Len: 66
+7:850  0:000    9. C53A84C0: 'SSDT', 'zpodd', Rev: 1, Len: 404
+7:850  0:000    10. C53A8658: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+7:850  0:000    11. C53A92D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+7:850  0:000    12. C53A9378: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:850  0:000    13. C53A98B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:850  0:000    14. C53AA430: 'SSDT', 'DptfTabl', Rev: 2, Len: 12869
+7:850  0:000    15. C53AD678: 'SSDT', 'CppcTabl', Rev: 2, Len: 916
+7:850  0:000    16. C53ADA10: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+7:850  0:000    17. C53ADA80: 'SSDT', 'Cpc_Tabl', Rev: 2, Len: 2756
+7:850  0:000    18. C53AE548: 'SSDT', 'SaSsdt', Rev: 2, Len: 27934
+7:850  0:000    19. C53B5268: 'SSDT', 'SgPch', Rev: 2, Len: 1660
+7:850  0:000    20. C53B58E8: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:850  0:000    21. C53B5998: 'BGRT', 'Notebook', Rev: 1, Len: 56
+7:850  0:000    22. C53B59D0: 'SSDT', 'OptTabl', Rev: 1, Len: 5106
